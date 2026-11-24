@@ -82,9 +82,9 @@ One challenge has been achieving consistent oxide formation while preventing con
 - Steam generation equipment
 - Nitrogen gas system
 
-**[Picture Placeholder: Oxidized silicon wafer]**
 
-**[Picture Placeholder: Tube furnace used for oxidation]**
+![Oxidized Wafer](OxidizedWafer.jpeg)
+
 
 ---
 
