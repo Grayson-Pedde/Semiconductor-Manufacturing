@@ -83,7 +83,7 @@ One challenge has been achieving consistent oxide formation while preventing con
 - Nitrogen gas system
 
 
-![Oxidized Wafer](OxidizedWafer.jpeg)
+![Oxidized Wafer](oxidizedWafer.jpeg)
 
 
 ---
@@ -109,11 +109,6 @@ This process allows the team to define specific regions for diffusion, gate form
 - Wet etching equipment (HF-safe plastics) 
 - Carbolite Gero tube furnace
 
-**[Picture Placeholder: Photolithography setup]**
-
-**[Picture Placeholder: Patterned silicon wafer]**
-
----
 
 ### 4. Phosphorus Diffusion
 
@@ -121,7 +116,7 @@ Phosphorus diffusion is used to introduce N-type dopants into selected regions o
 
 The objective is to create heavily doped N-type regions that can ultimately function as the source and drain of an NMOS transistor.
 
-The process involves applying a phosphorus-based spin-on dopant and performing high-temperature diffusion.
+The process involves applying a phosphorus-based spin-on dopant and performing high-temperature diffusion (using B509). 
 
 The team has investigated several challenges associated with this process, including:
 
@@ -130,9 +125,6 @@ The team has investigated several challenges associated with this process, inclu
 - Removing residual phosphorus-containing glass after diffusion.
 - Verifying the electrical characteristics of doped silicon regions.
 
-**[Picture Placeholder: Silicon wafer following phosphorus diffusion]**
-
----
 
 ### 5. Aluminum Metallization
 
@@ -147,17 +139,14 @@ This process is important for electrically connecting fabricated devices to exte
 - Aluminum evaporation material
 - Wafer mounting fixtures
 
-**[Picture Placeholder: Thermal evaporation system]**
-
-**[Picture Placeholder: Silicon wafer after aluminum deposition]**
-
----
-
 ## Preliminary Device Fabrication and Testing
 
 Before completing the full NMOS transistor fabrication process, the team has been developing and testing simpler semiconductor structures.
 
 These devices allow us to evaluate individual fabrication steps before combining them into a functioning transistor.
+
+## Resistor
+![Resistor](Resistor_Char.jpeg)
 
 ### PN Junction Diodes
 
@@ -167,7 +156,8 @@ Electrical testing has been performed to investigate their behavior and evaluate
 
 Some devices have exhibited unexpected polarity and electrical characteristics, requiring further investigation into doping, contact formation, and measurement methods.
 
-**[Picture Placeholder: Fabricated silicon diodes]**
+## Diode
+![Diode](Diode_Char.jpeg)
 
 ### MOS Capacitors
 
@@ -177,15 +167,17 @@ These devices allow us to investigate the electrical behavior of the silicon dio
 
 Initial measurements have presented challenges, including inconsistent capacitance behavior, which remain under investigation.
 
-**[Picture Placeholder: Fabricated MOS capacitor]**
+## MOSCAPS
+![MOSCAP](MosCaps.jpeg)
 
-**[Picture Placeholder: Electrical measurements of MOS capacitor]**
+## MOSCAP Characterization
+![MOSCAP](MOSCAP(C)_Char.jpeg)
 
----
+Note: As you can tell, this MOSCAP is short on the side
 
 ## Ellipsometer Development
 
-In addition to semiconductor processing, I am leading a subteam focused on developing a low-cost ellipsometer for measuring silicon dioxide thickness.
+In addition to semiconductor processing, I am  developing a low-cost ellipsometer for measuring silicon dioxide thickness.
 
 Accurately measuring oxide thickness is essential for semiconductor fabrication, especially when developing thin gate oxides for MOSFET devices.
 
@@ -217,6 +209,9 @@ Potential causes under investigation include wafer handling, cleaning effectiven
 Achieving the appropriate diffusion depth and concentration is essential for producing functioning NMOS devices.
 
 The team has investigated excessive diffusion and residual glass formation following high-temperature processing.
+
+## Glass on a Resistor
+![Resistor](Initial_Res.jpeg)
 
 ### Oxide Thickness and Quality
 
