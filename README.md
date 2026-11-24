@@ -173,7 +173,7 @@ Initial measurements have presented challenges, including inconsistent capacitan
 ## MOSCAP Characterization
 ![MOSCAP](MOSCAP(C)_Char.jpeg)
 
-Note: As you can tell, this MOSCAP is short on the side
+Note: As you can tell, this MOSCAP is shorted on the side
 
 ## Ellipsometer Development
 
